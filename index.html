@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+            My Family Book
+        </title>
+    </head>
+    <body>
+        <center>
+        <div>
+        <h1>
+            My Family Book
+        </h1>
+        <img id="imagePart" src="Untitled.png" alt="">
+        <br><br>
+        <span>
+            <button id="previous_button" onclick="onclickprev">Previous Image</button>
+            <button id="next_button" onclick="onclicknext">Next Image</button>
+        </span>
+        <h3 id="namePart">The family book</h3>
+
+    </div>
+        </center>
+    </body>
+    <script>
+        var images_array = ["Untitled.png", "IMG_20200515_121129.jpg", "Untitled.jpg", "IMG_20200824_175532.jpg", 
+        "IMG_20190302_203451.jpg", "IMG_20200824_1755326.jpg"];
+        console.log(images_array);
+        document.getElementById("imagePart").innerHTML = images_array;
+
+        var image0 = [0];
+        console.log(image0);
+        document.getElementById("imagePart").innerHTML = images_array;
+
+        var image1 = [1];
+        console.log(image1);
+        document.getElementById("imagePart").innerHTML = images_array;
+        
+        var image2 = [2];
+        console.log(image2);
+        document.getElementById("imagePart").innerHTML = images_array;
+
+        var images3 = [3];
+        console.log(image3);
+        document.getElementById("imagePart").innerHTML = images_array;
+
+        var images4 = [4];
+        console.log(image4);
+        document.getElementById("imagePart").innerHTML = images_array;
+
+        var images5 = [5];
+        console.log(image5);
+        document.getElementById("imagePart").innerHTML = images_array;
+
+        function onclicknext()
+        {
+          document.getElementsByName("IMG_20200515_121129.jpg");  
+          console.log("imagePart");
+
+        }
+
+
+    </script>
+</html>
